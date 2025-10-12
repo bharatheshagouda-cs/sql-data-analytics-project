@@ -66,4 +66,5 @@ FROM (
     FROM customer_spending
 ) AS segmented_customers
 GROUP BY customer_segment
+
 ORDER BY total_customers DESC;
