@@ -111,4 +111,5 @@ SELECT
 		ELSE total_sales / lifespan
 	END AS avg_monthly_revenue
 
+
 FROM product_aggregations 
