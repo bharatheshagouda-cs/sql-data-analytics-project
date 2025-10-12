@@ -29,3 +29,4 @@ FROM
     WHERE order_date IS NOT NULL
     GROUP BY DATETRUNC(year, order_date)
 ) t
+
