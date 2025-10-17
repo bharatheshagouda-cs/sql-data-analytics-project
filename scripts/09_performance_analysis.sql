@@ -50,3 +50,4 @@ SELECT
     END AS py_change
 FROM yearly_product_sales
 ORDER BY product_name, order_year;
+
