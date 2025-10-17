@@ -114,3 +114,4 @@ SELECT
 
 FROM product_aggregations 
 
+
