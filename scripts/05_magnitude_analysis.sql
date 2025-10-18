@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Magnitude Analysis 
+Magnitude Analysis
 ===============================================================================
 Purpose:
     - To quantify data and group results by specific dimensions.
