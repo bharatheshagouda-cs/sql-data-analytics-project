@@ -7,7 +7,7 @@ Purpose:
     - To track performance over time cumulatively.
     - Useful for growth analysis or identifying long-term trends.
 
-SQL Functions Used:    hfnfdvjt  
+SQL Functions Used:
     - Window Functions: SUM() OVER(), AVG() OVER()
 ===============================================================================
 */
