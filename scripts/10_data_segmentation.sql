@@ -10,7 +10,7 @@ SQL Functions Used:
     - CASE: Defines custom segmentation logic.
     - GROUP BY: Groups data into segments.
 ===============================================================================
-*/
+*/    jkkgffhjjn     
 
 /*Segment products into cost ranges and 
 count how many products fall into each segment*/
