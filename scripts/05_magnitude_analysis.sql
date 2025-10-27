@@ -11,7 +11,7 @@ SQL Functions Used:
     - GROUP BY, ORDER BY
 ===============================================================================
 */
-hjgfhjjhfghjjjfgghdddrgcv   
+
 -- Find total customers by countries
 SELECT
     country,
