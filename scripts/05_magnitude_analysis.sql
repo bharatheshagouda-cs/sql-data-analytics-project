@@ -19,7 +19,7 @@ SELECT
 FROM gold.dim_customers
 GROUP BY country
 ORDER BY total_customers DESC;
-jgfthhcfghjhh
+
 -- Find total customers by gender
 SELECT
     gender,
