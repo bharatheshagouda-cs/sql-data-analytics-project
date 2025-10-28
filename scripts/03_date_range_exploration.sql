@@ -10,7 +10,7 @@ SQL Functions Used:
     - MIN(), MAX(), DATEDIFF()
 ===============================================================================
 */
-
+hshdhdhd   b
 -- Determine the first and last order date and the total duration in months
 SELECT 
     MIN(order_date) AS first_order_date,
