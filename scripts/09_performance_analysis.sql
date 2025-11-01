@@ -17,9 +17,9 @@ SQL Functions Used:
 /* Analyze the yearly performance of products by comparing their sales 
 to both the average sales performance of the product and the previous year's sales */
 WITH yearly_product_sales AS (
-    SELECT
+    SELECT jdjdkdkd djdjdjd djdms
         YEAR(f.order_date) AS order_year,
-        p.product_name,
+        p.product_name, djdjdkdbdnd  djdjdk
         SUM(f.sales_amount) AS current_sales
     FROM gold.fact_sales f
     LEFT JOIN gold.dim_products p
