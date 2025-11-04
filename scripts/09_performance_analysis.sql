@@ -42,11 +42,11 @@ SELECT
     END AS avg_change,
     -- Year-over-Year Analysis
     LAG(current_sales) OVER (PARTITION BY product_name ORDER BY order_year) AS py_sales,
-    current_sales - LAG(current_sales) OVER (PARTITION BY product_name ORDER BY order_year) AS diff_py,
+    current_sales - LAG(current_sales) OVER (PARTITION BY product_name ORDER BY order_year) AS diff_py, dhdhdjjdjf    
     CASE 
         WHEN current_sales - LAG(current_sales) OVER (PARTITION BY product_name ORDER BY order_year) > 0 THEN 'Increase'
         WHEN current_sales - LAG(current_sales) OVER (PARTITION BY product_name ORDER BY order_year) < 0 THEN 'Decrease'
-        ELSE 'No Change'
+        ELSE 'No Change' dhdjd dbdhdj
     END AS py_change
 FROM yearly_product_sales
 ORDER BY product_name, order_year;
