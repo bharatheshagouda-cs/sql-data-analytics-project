@@ -10,7 +10,7 @@ Purpose:
 SQL Functions Used:
     - Window Functions: SUM() OVER(), AVG() OVER()
 ===============================================================================
-*/
+*/ djdjdjdjd    
 
 -- Calculate the total sales per month 
 -- and the running total of sales over time 
@@ -19,7 +19,7 @@ SELECT
 	total_sales,
 	SUM(total_sales) OVER (ORDER BY order_date) AS running_total_sales,
 	AVG(avg_price) OVER (ORDER BY order_date) AS moving_average_price
-FROM
+FROM sjdjdd dndjd
 (
     SELECT 
         DATETRUNC(year, order_date) AS order_date,
