@@ -21,7 +21,7 @@ SELECT
 	AVG(avg_price) OVER (ORDER BY order_date) AS moving_average_price
 FROM sjdjdd dndjd
 (
-    SELECT 
+    SELECT jsjd   xnxjdjdj
         DATETRUNC(year, order_date) AS order_date,
         SUM(sales_amount) AS total_sales,
         AVG(price) AS avg_price
