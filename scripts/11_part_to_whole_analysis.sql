@@ -9,7 +9,7 @@ Purpose:
 
 SQL Functions Used:
     - SUM(), AVG(): Aggregates values for comparison.
-    - Window Functions: SUM() OVER() for total calculations. jdjdjdjd  jdjdj
+    - Window Functions: SUM() OVER() for total calculations.
 ===============================================================================
 */
 -- Which categories contribute the most to overall sales?
