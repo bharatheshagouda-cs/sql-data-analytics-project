@@ -19,14 +19,14 @@ Highlights:
 		- average order value
 		- average monthly spend
 ===============================================================================
-*/ shhensns sbnsj
+*/
 
 -- =============================================================================
 -- Create Report: gold.report_customers
 -- =============================================================================
 IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
     DROP VIEW gold.report_customers;
-GO shensm nansn
+GO
 
 CREATE VIEW gold.report_customers AS
 
