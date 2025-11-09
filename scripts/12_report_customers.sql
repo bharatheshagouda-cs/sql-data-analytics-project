@@ -10,7 +10,7 @@ Highlights:
 	2. Segments customers into categories (VIP, Regular, New) and age groups.
     3. Aggregates customer-level metrics:
 	   - total orders
-	   - total sales hsksjs shsksksk
+	   - total sales
 	   - total quantity purchased
 	   - total products
 	   - lifespan (in months)
