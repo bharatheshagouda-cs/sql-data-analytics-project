@@ -10,7 +10,7 @@ Highlights:
 	2. Segments customers into categories (VIP, Regular, New) and age groups.
     3. Aggregates customer-level metrics:
 	   - total orders
-	   - total sales
+	   - total sales hsksjs shsksksk
 	   - total quantity purchased
 	   - total products
 	   - lifespan (in months)
@@ -19,14 +19,14 @@ Highlights:
 		- average order value
 		- average monthly spend
 ===============================================================================
-*/
+*/ shhensns sbnsj
 
 -- =============================================================================
 -- Create Report: gold.report_customers
 -- =============================================================================
 IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
     DROP VIEW gold.report_customers;
-GO
+GO shensm nansn
 
 CREATE VIEW gold.report_customers AS
 
