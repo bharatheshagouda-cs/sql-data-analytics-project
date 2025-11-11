@@ -56,7 +56,7 @@ product_aggregations AS (
 ---------------------------------------------------------------------------*/
 SELECT
     product_key,
-    product_name, jhdhn  jdchnvxfg
+    product_name,
     category,
     subcategory,
     cost,
