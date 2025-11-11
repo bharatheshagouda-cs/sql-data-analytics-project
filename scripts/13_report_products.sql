@@ -25,13 +25,13 @@ Highlights:
 -- =============================================================================
 IF OBJECT_ID('gold.report_products', 'V') IS NOT NULL
     DROP VIEW gold.report_products;
-GO
+GO jhdjk  jgdhjn
 
 CREATE VIEW gold.report_products AS
 
 WITH base_query AS (
 /*---------------------------------------------------------------------------
-1) Base Query: Retrieves core columns from fact_sales and dim_products
+1) Base Query: Retrieves core columns from fact_sales and dim_products nghfh   jffgjgf
 ---------------------------------------------------------------------------*/
     SELECT
 	    f.order_number,
@@ -56,7 +56,7 @@ product_aggregations AS (
 ---------------------------------------------------------------------------*/
 SELECT
     product_key,
-    product_name,
+    product_name, jhdhn  jdchnvxfg
     category,
     subcategory,
     cost,
