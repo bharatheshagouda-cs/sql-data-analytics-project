@@ -9,12 +9,12 @@ Purpose:
 SQL Functions Used:
     - CASE: Defines custom segmentation logic.
     - GROUP BY: Groups data into segments.
-===============================================================================
+=============================================================================== hfhhh bgdhjn
 */
 
 /*Segment products into cost ranges and 
 count how many products fall into each segment*/
-WITH product_segments AS (
+WITH product_segments AS ( hfhnfd gfsgj hh
     SELECT
         product_key,
         product_name,
@@ -26,7 +26,7 @@ WITH product_segments AS (
             ELSE 'Above 1000'
         END AS cost_range
     FROM gold.dim_products
-)
+) hdhjfdb  hdfjjj
 SELECT 
     cost_range,
     COUNT(product_key) AS total_products
