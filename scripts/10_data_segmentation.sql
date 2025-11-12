@@ -14,7 +14,7 @@ SQL Functions Used:
 
 /*Segment products into cost ranges and 
 count how many products fall into each segment*/
-WITH product_segments AS ( hfhnfd gfsgj hh
+WITH product_segments AS (
     SELECT
         product_key,
         product_name,
