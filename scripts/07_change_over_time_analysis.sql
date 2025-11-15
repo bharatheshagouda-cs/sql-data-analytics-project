@@ -36,7 +36,7 @@ FROM gold.fact_sales
 WHERE order_date IS NOT NULL
 GROUP BY DATETRUNC(month, order_date)
 ORDER BY DATETRUNC(month, order_date);
-hdghv  bcgvd  vv
+
 -- FORMAT()
 SELECT
     FORMAT(order_date, 'yyyy-MMM') AS order_date,
