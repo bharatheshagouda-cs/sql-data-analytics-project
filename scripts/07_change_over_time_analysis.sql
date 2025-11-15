@@ -12,7 +12,7 @@ SQL Functions Used:
     - Aggregate Functions: SUM(), COUNT(), AVG()
 ===============================================================================
 */
-
+hffgj  bgdgj  h
 -- Analyse sales performance over time
 -- Quick Date Functions
 SELECT
@@ -25,7 +25,7 @@ FROM gold.fact_sales
 WHERE order_date IS NOT NULL
 GROUP BY YEAR(order_date), MONTH(order_date)
 ORDER BY YEAR(order_date), MONTH(order_date);
-
+ghdh  gjdfdb  hffg
 -- DATETRUNC()
 SELECT
     DATETRUNC(month, order_date) AS order_date,
@@ -36,7 +36,7 @@ FROM gold.fact_sales
 WHERE order_date IS NOT NULL
 GROUP BY DATETRUNC(month, order_date)
 ORDER BY DATETRUNC(month, order_date);
-
+hdghv  bcgvd  vv
 -- FORMAT()
 SELECT
     FORMAT(order_date, 'yyyy-MMM') AS order_date,
