@@ -33,7 +33,7 @@ SELECT
 FROM product_segments
 GROUP BY cost_range
 ORDER BY total_products DESC;
-hhdfhhh  hfgh
+
 /*Group customers into three segments based on their spending behavior:
 	- VIP: Customers with at least 12 months of history and spending more than €5,000.
 	- Regular: Customers with at least 12 months of history but spending €5,000 or less.
