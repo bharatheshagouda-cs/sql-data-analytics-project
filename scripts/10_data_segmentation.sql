@@ -5,13 +5,13 @@ Data Segmentation Analysis
 Purpose:
     - To group data into meaningful categories for targeted insights.
     - For customer segmentation, product categorization, or regional analysis.
-
+jdghb hvvh  hgf
 SQL Functions Used:
     - CASE: Defines custom segmentation logic.
     - GROUP BY: Groups data into segments.
 ===============================================================================
 */
-
+jrfghjv  hvvjj
 /*Segment products into cost ranges and 
 count how many products fall into each segment*/
 WITH product_segments AS (
@@ -33,7 +33,7 @@ SELECT
 FROM product_segments
 GROUP BY cost_range
 ORDER BY total_products DESC;
-
+hhdfhhh  hfgh
 /*Group customers into three segments based on their spending behavior:
 	- VIP: Customers with at least 12 months of history and spending more than €5,000.
 	- Regular: Customers with at least 12 months of history but spending €5,000 or less.
