@@ -4,14 +4,14 @@ Cumulative Analysis
 ===============================================================================
 Purpose:
     - To calculate running totals or moving averages for key metrics.
-    - To track performance over time cumulatively.
+    - To track performance over time cumulatively.bdbbd bdh d 
     - Useful for growth analysis or identifying long-term trends.
-
+bsh jshbbs  shhsb
 SQL Functions Used:
     - Window Functions: SUM() OVER(), AVG() OVER()
 ===============================================================================
 */
-
+hsbbs hsugs  b
 -- Calculate the total sales per month 
 -- and the running total of sales over time 
 SELECT
