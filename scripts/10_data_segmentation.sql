@@ -10,7 +10,7 @@ SQL Functions Used:
     - CASE: Defines custom segmentation logic.
     - GROUP BY: Groups data into segments.
 ===============================================================================
-*/
+*/gnhgg bgfgjn n
 
 /*Segment products into cost ranges and 
 count how many products fall into each segment*/
@@ -26,7 +26,7 @@ WITH product_segments AS (
             ELSE 'Above 1000'
         END AS cost_range
     FROM gold.dim_products
-)
+)b bgghb hfcb b
 SELECT 
     cost_range,
     COUNT(product_key) AS total_products
@@ -39,7 +39,7 @@ ORDER BY total_products DESC;
 	- Regular: Customers with at least 12 months of history but spending €5,000 or less.
 	- New: Customers with a lifespan less than 12 months.
 And find the total number of customers by each group
-*/
+*/ bgj hfhh   bhhj
 WITH customer_spending AS (
     SELECT
         c.customer_key,
