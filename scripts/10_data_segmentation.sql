@@ -26,7 +26,7 @@ WITH product_segments AS (
             ELSE 'Above 1000'
         END AS cost_range
     FROM gold.dim_products
-)b bgghb hfcb b
+)
 SELECT 
     cost_range,
     COUNT(product_key) AS total_products
