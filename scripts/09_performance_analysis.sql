@@ -6,14 +6,14 @@ Purpose:
     - To measure the performance of products, customers, or regions over time.
     - For benchmarking and identifying high-performing entities.
     - To track yearly trends and growth.
-
+ggfhhh vhfhh  bb
 SQL Functions Used:
     - LAG(): Accesses data from previous rows.
     - AVG() OVER(): Computes average values within partitions.
     - CASE: Defines conditional logic for trend analysis.
 ===============================================================================
 */
-
+gdfjhhh  vccbb vvf
 /* Analyze the yearly performance of products by comparing their sales 
 to both the average sales performance of the product and the previous year's sales */
 WITH yearly_product_sales AS (
@@ -28,7 +28,7 @@ WITH yearly_product_sales AS (
     GROUP BY 
         YEAR(f.order_date),
         p.product_name
-)
+)gvfgnbv vvvbb vvfg
 SELECT
     order_year,
     product_name,
