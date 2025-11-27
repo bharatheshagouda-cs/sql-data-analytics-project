@@ -11,7 +11,7 @@ SQL Functions Used:
     - GROUP BY: Groups data into segments.
 ===============================================================================
 */
-ghjjghh hddg vg
+
 /*Segment products into cost ranges and 
 count how many products fall into each segment*/
 WITH product_segments AS (
@@ -33,7 +33,7 @@ SELECT
 FROM product_segments
 GROUP BY cost_range
 ORDER BY total_products DESC;
-vsghch gfhb gffh
+
 /*Group customers into three segments based on their spending behavior:
 	- VIP: Customers with at least 12 months of history and spending more than €5,000.
 	- Regular: Customers with at least 12 months of history but spending €5,000 or less.
