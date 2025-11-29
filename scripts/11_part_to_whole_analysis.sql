@@ -21,7 +21,7 @@ WITH category_sales AS (
     LEFT JOIN gold.dim_products p
         ON p.product_key = f.product_key
     GROUP BY p.category
-)hfxbj vghcv gfgh hhv
+)
 SELECT
     category,
     total_sales,
