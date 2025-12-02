@@ -4,7 +4,7 @@ Customer Report
 ===============================================================================
 Purpose:
     - This report consolidates key customer metrics and behaviors
-
+gjgfhj vfjj ghn
 Highlights:
     1. Gathers essential fields such as names, ages, and transaction details.
 	2. Segments customers into categories (VIP, Regular, New) and age groups.
@@ -20,14 +20,14 @@ Highlights:
 		- average monthly spend
 ===============================================================================
 */
-
+gfthjfy chj fhj
 -- =============================================================================
 -- Create Report: gold.report_customers
 -- =============================================================================
 IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
     DROP VIEW gold.report_customers;
 GO
-
+gvnnfh hdfjm vhnv
 CREATE VIEW gold.report_customers AS
 
 WITH base_query AS(
